@@ -1,0 +1,48 @@
+#Demo mapfile bieu dien duong bien gioi cua VN
+MAP
+NAME "BorderVN"
+SIZE 1366 768
+IMAGECOLOR 0 0 0
+IMAGETYPE PNG
+SHAPEPATH "data"
+# VN
+EXTENT 94.00 14.00 125.00 16.00
+# HCM
+#EXTENT 103.00 8.00 110.00 12.00
+#Quan 10
+#EXTENT 106.66 10.757 106.68 10.79
+WEB
+	TEMPLATE "demo.html"
+	IMAGEPATH "/ms4w/tmp/ms_tmp/"
+	IMAGEURL "/ms_tmp/"
+END
+#LAYER
+#	NAME "Viet_Nam_nha"
+#	STATUS DEFAULT
+#	TYPE line
+#	DATA "Nha_shp"
+#	LABELITEM "TenNha"
+#LAYER
+#	NAME "Viet_Nam_GT"
+#	STATUS DEFAULT
+#	TYPE line
+#	DATA "Gthong_shp"
+#	LABELITEM "TenConDuon"
+LAYER
+	NAME "Viet_Nam"
+	STATUS DEFAULT
+	TYPE line
+	DATA "VNM_adm1"
+	LABELITEM "VARNAME_1"
+
+CLASS
+	STYLE
+		COLOR 0 255 0
+	END
+	LABEL
+		COLOR 255 255 0
+		SIZE SMALL
+	END
+END #end Class
+END #end LAYER
+END #end mapfile

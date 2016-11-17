@@ -1,0 +1,30 @@
+#Demo mapfile bieu dien duong bien gioi cua US
+MAP
+NAME "BorderUS"
+SIZE 800 600
+IMAGECOLOR 212 3 255
+IMAGETYPE PNG
+SHAPEPATH "data"
+EXTENT -190.00 20.00 -55.00 70.00
+WEB
+	TEMPLATE "demo.html"
+	IMAGEPATH "/ms4w/tmp/ms_tmp/"
+	IMAGEURL "/ms_tmp/"
+END
+LAYER
+	NAME "US_States"
+	STATUS DEFAULT
+	TYPE LINE
+	DATA "statesp020"
+	LABELITEM "STATE"
+CLASS
+	STYLE
+		COLOR 0 0 0
+	END
+	LABEL
+		COLOR 0 0 0
+		SIZE SMALL
+	END
+END #end Class
+END #end LAYER
+END #end mapfile
