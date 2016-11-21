@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Mr. Bruce Wright from U.S. Geological Survey with dataset modifications by Mr. Serdar Ertep, US Environmental Protection Agency. </origin>
+				<pubdate>2000</pubdate>
+				<title Sync="TRUE">urbanap020</title>
+				<pubinfo>
+					<pubplace>Salt Lake City, UT</pubplace>
+					<publish>USDA Forest Service </publish>
+				</pubinfo>
+				<ftname Sync="TRUE">urbanap020</ftname><geoform Sync="TRUE">vector digital data</geoform><onlink>&lt;http://www.srs.fs.usda.gov/sustain/data&gt; </onlink><othercit>filename: urbanap020.shp </othercit></citeinfo>
+		</citation>
+		<descript>
+			<abstract>This coverage was identified on the USGS Water Resources NSDI Node site at &lt;http://nsdi.usgs.gov&gt;. This data set includes a selection of urban areas in the United States derived from the urban areas layer of the Digital Chart of 
+the World (DCW).The data was then modified by the US Environmental Protection Agency Personnel for use in the Southern Forest Resource Assessment and exported to a shapefile. The USGS FGDC compliant metadata was then modified to reflect any data set edits completed by the US Environmental Protection Agency Personnel. (see process description starting on page 4).</abstract>
+			<purpose>The digital data sets of the National Atlas are used to create electronic and hard 
+copy maps that depict various aspects of the nation.  The data can be used to 
+conduct geographic analysis on National and large regional scales. The digital 
+data will provide a basis from which future revisions of the atlas can be derived.</purpose>
+			<supplinf>USGS Revisions on source coverage:
+1) 6/29/98 - Corrected ellipsoid name from WGS84 to GRS1980 and
+changed flattening ratio.
+2) 11/13/98 - Added State FIPS attribute; move polygons for Altus, OK and
+Olustee, OK; and edited STATES field for Kansas City and Washington Metro
+Area.
+US Enviromental Protection Agency Shapefile Information:
+The states included within the dataset include: AL, AR, FL, GA, KY, LA, MS, NC, OK, SC, TN, TX, and VA</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>1996</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>publication date</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>Unknown</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc Sync="TRUE">-107.929324</westbc>
+				<eastbc Sync="TRUE">-75.096063</eastbc>
+				<northbc Sync="TRUE">39.719442</northbc>
+				<southbc Sync="TRUE">23.826109</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">-1558832.070503</leftbc><rightbc Sync="TRUE">1292014.242281</rightbc><bottombc Sync="TRUE">-18098.820451</bottombc><topbc Sync="TRUE">1634048.554060</topbc></lboundng></spdom>
+		<keywords>
+			<place>
+			</place>
+			<place>
+				<placekt>AL, AR, FL, GA, KY, LA, MS, NC, OK, SC, TN, TX, VA </placekt>
+				<placekey>Southern Forest Resource Assessment, SFRA </placekey></place>
+			<theme><themekey>urban areas</themekey><themekey>society</themekey><themekey>Cultural, society and demographic</themekey></theme></keywords>
+		<accconst>None</accconst>
+		<useconst>None. The USDA Forest Service does not guarantee the accuracy of this data. 
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>USDA Forest Service, SRS4851 </address>
+					<city>Research Triangle Park </city>
+					<state>NC </state>
+					<postal>27709 </postal>
+					<address>3041 E. Cornwallis Rd </address><country>USA </country></cntaddr>
+				<cntvoice>(919).549.4013 </cntvoice>
+				<cntemail>jpye@fs.fed.us </cntemail>
+				<cntorgp><cntorg>USDA-Forest Service </cntorg><cntper>Mr. John M. Pye </cntper></cntorgp><cntpos>Ecologist </cntpos></cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</native>
+		<natvform Sync="TRUE">Shapefile</natvform><datacred>1) USGS- the original urban area coverage and metadata. 
+2) US Environmental Protection Agency- modifications to data for use in the Southern Forest Resource Assessment (SFRA).</datacred><secinfo><secclass>Unclassified</secclass></secinfo></idinfo>
+	<dataqual>
+		<logic>No additional checks for topological consistency were performed on this data set.
+
+Assessment-standard projection: 
+Projection: Albers Equal Area
+Units: Meters 
+Spheroid: GRS80 
+Datum: NAD83 
+First Standard Parallel: 27 degrees 30 minutes 
+Second Standard Parallel: 37 degrees 30 minutes 
+Central Meridian: -90 degrees 00 minutes
+Latitude of Origin: 25 degrees 00 minutes 
+False Easting: 0.0 False Northing: 0.0</logic>
+		<complete>none</complete>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>National Imagery and Mapping Agency (NIMA)</origin>
+						<pubdate>1994</pubdate>
+						<title>Digital Chart of the World</title>
+						<pubinfo>
+							<pubplace>Reston, VA</pubplace>
+							<publish>U.S. Geological Survey</publish>
+						</pubinfo>
+					</citeinfo>
+				</srccite>
+				<typesrc>electronic mail system</typesrc>
+				<srctime>
+					<timeinfo>
+						<sngdate>
+							<caldate>1994</caldate>
+						</sngdate>
+					</timeinfo>
+					<srccurr>publication date</srccurr>
+				</srctime>
+				<srccitea>DCW</srccitea>
+				<srccontr>spatial and attribute information</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>USGS Process Description: Urban polygons from the Digital Chart of the World (DCW)
+CD-ROM were extracted and converted to ARC/INFO format.  Where
+the urban boundaries extend beyond the 1:2M shoreline, the 2M
+shoreline was used by "CLIPPING" the urban polygons.  Names of
+the urban areas were added. In large metropolitan areas many
+smaller areas were labeled as part of the metropolitan area.
+The state in which the urban area is located was also added.  Several
+areas were modified to conform to the 1:2,000,000-scale hydrography
+layer.  Some smaller polygons that represent undeveloped areas
+within the urban area were removed and merged with the larger
+urban area.  Military reservations were also removed.</procdesc>
+				<procdate>1998</procdate>
+			</procstep>
+			<procstep><date Sync="TRUE">20030508</date><time Sync="TRUE">09545700</time><proccont><cntinfo><cntorgp><cntorg>US Environmental Protection Agency </cntorg><cntper>Mr. Serdar Ertep </cntper></cntorgp><cntaddr><address>US Environmental Protection Agency </address><address>Region 4 </address><address>Atlanta Federal Center </address><address>61 Forsyth Street, S.W. </address><addrtype>mailing and physical address</addrtype><city>Atlanta </city><state>GA </state><postal>30303 </postal><country>USA </country></cntaddr><cntvoice>(404).562.9683</cntvoice></cntinfo></proccont><procdesc>Data Modifications by US Environmental Protection Agency Personnel: 
+Sept. &amp; Oct.-2000: The coverages were downloaded by US Environmental Agency personnel on 22-Sep-2000 in compressed Arc Info Export format along with their associated metadata. The coverages were then reprojected and clipped to match Assessment standard Albers projection and State Assessment coverage boundary coordinates. This process used the Arc Info PROJECT and CLIP command. The coverage then exported as a shapefile. 
+
+</procdesc><procdate>2000</procdate></procstep><procstep><srcused>C:\DOCUME~1\bcermak\LOCALS~1\Temp\xml96.tmp</srcused><procdesc>Metadata imported.</procdesc></procstep></lineage>
+		<posacc><horizpa><horizpar>All linear delineations are within National Map Accuracy Standards. </horizpar><qhorizpa><horizpav> +/- 1,016 meters </horizpav></qhorizpa></horizpa><vertacc><vertaccr>All linear delineations are within National Map Accuracy Standards. </vertaccr><qvertpa><vertaccv>+/- 500 meters </vertaccv></qvertpa></vertacc></posacc></dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="urbanap020">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">2291</ptvctcnt>
+			</sdtsterm>
+			<sdtsterm>
+				<sdtstype>Complete chain</sdtstype>
+				<ptvctcnt>6185</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="urbanap020"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">2291</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">Albers Equal Area</projcsn></cordsysn><planar><planci><plance Sync="TRUE">coordinate pair</plance><plandu Sync="TRUE">meters</plandu><coordrep><absres Sync="TRUE">0.004096</absres><ordres Sync="TRUE">0.004096</ordres></coordrep></planci><mapproj><mapprojn Sync="TRUE">Albers Conical Equal Area</mapprojn><albers><stdparll Sync="TRUE">27.500000</stdparll><stdparll Sync="TRUE">37.500000</stdparll><longcm Sync="TRUE">-90.000000</longcm><latprjo Sync="TRUE">25.000000</latprjo><feast Sync="TRUE">0.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></albers></mapproj></planar></horizsys>
+	</spref>
+	<eainfo>
+		<detailed Name="urbanap020">
+			<enttyp>
+				<enttypl Sync="TRUE">urbanap020</enttypl>
+				<enttypd>
+Urban areas are places where large
+populations exist
+</enttypd>
+				<enttypds>U.S. Geological Survey</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">2291</enttypc></enttyp>
+			<attr>
+				<attrlabl Sync="TRUE">FID</attrlabl>
+				<attrdef Sync="TRUE">Internal feature number.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<rdom><rdommin>1</rdommin><rdommax>2290</rdommax></rdom><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv>
+				<attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">Shape</attrlabl>
+				<attrdef Sync="TRUE">Feature geometry.</attrdef>
+				<attrdefs Sync="TRUE">ESRI</attrdefs>
+				<attrdomv>
+					<edom><edomv>Polygon</edomv><edomvd>2-dimensional element</edomvd><edomvds>GIS software</edomvds></edom><udom Sync="TRUE">Coordinates defining the features.</udom></attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl Sync="TRUE">AREA</attrlabl>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>44.576</rdommin>
+						<rdommax>893676384.05</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">AREA</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">3</atnumdec><attrdef>Area of polygon in shapefile units.</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">PERIMETER</attrlabl>
+				<attrdefs>U.S. Geological Survey</attrdefs>
+				<attrdomv>
+					<rdom>
+						<rdommin>42.928</rdommin>
+						<rdommax>359940.595</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">PERIMETER</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">12</attwidth><atnumdec Sync="TRUE">3</atnumdec><attrdef>Perimeter of polygon in shapefile units</attrdef></attr>
+			<attr>
+				<attrlabl Sync="TRUE">URBANAP020</attrlabl>
+				<attrdomv>
+					<rdom>
+						<rdommin>3049</rdommin>
+						<rdommax>6177</rdommax>
+					</rdom>
+				</attrdomv>
+				<attalias Sync="TRUE">URBANAP020</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef>Internal feature number</attrdef><attrdefs>U.S. Geological Survey</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">URBANAP021</attrlabl>
+				<attrdomv>
+					<rdom><rdommin>3049</rdommin><rdommax>6177</rdommax></rdom></attrdomv>
+				<attalias Sync="TRUE">URBANAP021</attalias><attrtype Sync="TRUE">Number</attrtype><attwidth Sync="TRUE">11</attwidth><attrdef>User-assigned feature number</attrdef><attrdefs>U.S. Geological Survey</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">NAME</attrlabl>
+				<attrdomv>
+					<udom>There is no predefined set of valid urban area names. Name represents the most significant place that is in the polygon.</udom></attrdomv>
+				<attalias Sync="TRUE">NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">45</attwidth><attrdef>Name of the urban area</attrdef><attrdefs>U.S. Geological Survey</attrdefs></attr>
+			<attr>
+				<attrlabl Sync="TRUE">STATE</attrlabl>
+				<attrdomv>
+					<codesetd><codesetn>Codes for the Identification of the States,
+the District of Columbia and the Outlying Areas of the
+United States, and Associated Areas, FIPS 5-2, 1987.</codesetn><codesets>U.S. Department of Commerce, National
+Institute of Standards and Technology</codesets></codesetd></attrdomv>
+				<attalias Sync="TRUE">STATE</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">20</attwidth><attrdef>The 2-letter abbreviation for the State in which the county is located.</attrdef><attrdefs>U.S. Geological Survey</attrdefs></attr>
+			<attr><attrlabl Sync="TRUE">STATE_FIPS</attrlabl><attalias Sync="TRUE">STATE_FIPS</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">14</attwidth><attrdef>The Federal Information Processing Standard (FIPS) code used by the U.S. Bureau of the Census for the State in which the dam is located.</attrdef><attrdefs>U.S. Army Corps of Engineers</attrdefs><attrdomv><rdom><rdommin>01</rdommin><rdommax>54</rdommax></rdom></attrdomv></attr></detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>USDA Forest Service, SRS4851 </address>
+					<city>Research Triangle Park </city>
+					<state>NC </state>
+					<postal>27709 </postal>
+					<address>3041 E. Cornwallis Rd. </address><country>USA </country></cntaddr>
+				<cntvoice>(919).549.4013 </cntvoice>
+				<cntemail>jpye@fs.fed.us </cntemail>
+				<cntorgp><cntorg>USDA-Forest Service </cntorg><cntper>Mr. John M. Pye </cntper></cntorgp><cntpos>Ecologist </cntpos></cntinfo>
+		</distrib>
+		<distliab>Data Content and Use Disclaimer 
+
+The USDA Forest Service, Southern Forest Resource Assessment or SFRA, provides data to users of digital geographic data. The USDA Forest Service is in no way condoning or endorsing the application of these data for any given purpose. It is the sole responsibility of the user to determine whether or not the data is suitable for the intended purpose. It is also the obligation of the user to apply the data in an appropriate and conscientious manner. The USDA Forest Service provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. Much of the USDA Forest Service data is based on and maintained with Arc Info and Arc View Software developed by the Environmental Systems Research Institute (ESRI). In addition, much of the information presented uses conventions and terms popularized by Arc Info and Arc View and their user community. USDA Forest Service in no way represents the interests of ESRI nor acts as an agent for them. 
+</distliab>
+		<resdesc Sync="TRUE">Downloadable Data</resdesc><stdorder><digform><digtinfo><transize Sync="TRUE">1.064</transize><dssize Sync="TRUE">1.064</dssize><formname>.shp </formname><formspec>Arc View Shapefile </formspec><formcont>urbanap020</formcont><filedec>zip file</filedec></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20041118</metd>
+		<metc>
+			<cntinfo>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>USDA Forest Service, SRS4851 </address>
+					<city>Research Triangle Park </city>
+					<state>NC </state>
+					<postal>27709 </postal>
+					<address>3041 E. Cornwallis Rd. </address><country>USA </country></cntaddr>
+				<cntvoice>(919).549.4013 </cntvoice>
+				<cntemail>jpye@fs.fed.us </cntemail>
+				<cntorgp><cntorg>USDA-Forest Service </cntorg><cntper>Mr. John M. Pye </cntper></cntorgp><cntpos>Ecologist </cntpos></cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<metsi>
+			<metscs>None</metscs>
+			<metsc>Unclassified</metsc>
+			<metshd>None</metshd>
+		</metsi>
+		<langmeta Sync="TRUE">en</langmeta><mettc Sync="TRUE">local time</mettc><metac>None</metac><metuc>None</metuc><metextns><onlink>http://www.srs.fs.usda.gov/econ</onlink></metextns><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><MetaID>{AE58AEEC-90B5-416E-A9AB-2CBF5446B46A}</MetaID><CreaDate>20030508</CreaDate><CreaTime>09545700</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20041118</SyncDate><SyncTime>16084000</SyncTime><ModDate>20041118</ModDate><ModTime>16084000</ModTime></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 3; ESRI ArcCatalog 8.3.0.800</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">urbanap020</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-107.929324</westBL><eastBL Sync="TRUE">-75.096063</eastBL><northBL Sync="TRUE">39.719442</northBL><southBL Sync="TRUE">23.826109</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">-1558832.070503</westBL><eastBL Sync="TRUE">1292014.242281</eastBL><northBL Sync="TRUE">1634048.55406</northBL><southBL Sync="TRUE">-18098.820451</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\RTPSV2\unit\econ\gis\soatlas\sfra\urbanap020\urbanap020.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">1.064</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">Albers Equal Area</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="urbanap020"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">2291</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20041118</mdDateSt></metadata>

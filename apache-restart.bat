@@ -2,7 +2,7 @@
 
 REM This restarts the apache service 
 
-cd C:\ms4w\Apache\bin
+cd D:\ms4w\Apache\bin
 httpd -k restart -n "Apache MS4W Web Server"
 cd ..\..
 

@@ -2,7 +2,7 @@
 
 REM This installs and starts the apache service 
 
-cd C:\ms4w\Apache\bin
+cd D:\ms4w\Apache\bin
 httpd -k install -n "Apache MS4W Web Server"
 net start "Apache MS4W Web Server"
 cd ..\..

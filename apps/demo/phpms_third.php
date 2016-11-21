@@ -32,9 +32,9 @@ $script_name = "phpms_third.php";
 
 // path defaults
 
-$map_path = "/home/mapdata/";
+$map_path = "D:/ms4w/apps/demo/";
 $map_file = "third.map";
-$img_path = "/var/www/htdocs/tmp/";
+$img_path = "/ms4w/tmp/ms_tmp/";
 
 // Navigation defaults
 
@@ -182,13 +182,13 @@ if (( $_POST['img_x'] and $_POST['img_y'] )
 $map_id = sprintf("%0.6d",rand(0,999999));
 
 $image_name = "third".$map_id.".png";
-$image_url="/tmp/".$image_name;
+$image_url="/ms_tmp/".$image_name;
 
 $ref_name = "thirdref".$map_id.".gif";
-$ref_url="/tmp/".$ref_name;
+$ref_url="/ms_tmp/".$ref_name;
 
 $leg_name = "thirdleg".$map_id.".png";
-$leg_url="/tmp/".$leg_name;
+$leg_url="/ms_tmp/".$leg_name;
 
 // Draw and save map image
 

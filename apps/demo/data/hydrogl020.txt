@@ -1,0 +1,576 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Mr. Steve Kambly from U.S. Geological Survey with dataset modifications by Mr. Serdar Ertep, US Environmental Protection Agency.
+      Publication_Date: 2000
+      Title: hydrogl020
+      Geospatial_Data_Presentation_Form: vector digital data
+      Publication_Information:
+        Publication_Place: Research Triangle Park in NC
+        Publisher: USDA Forest Service
+      Other_Citation_Details: filename: hydrogl020.shp
+      Online_Linkage: <http://www.srs.fs.usda.gov/sustain/data>
+  Description:
+    Abstract:
+      This coverage was identified on the USGS Water Resources NSDI Node 
+      site at <http://nsdi.usgs.gov>. The data set portrays the linear water 
+      features of the Eastern United States. The USGS original file was 
+      produced by joining the individual State hydrography layers from the 
+      1:2,000,000-scale Digital Line Graph (DLG) data produced by the
+      USGS. This is a revised version of the March 1999 data set. The data was 
+      then modified by the US Environmental Protection Agency Personnel 
+      for use  in the Southern Forest Resource Assessment and exported to a shapefile. 
+      The USGS FGDC compliant metadata was then modified to reflect any 
+      data set edits completed by the US Environmental Protection Agency 
+      Personnel. (see process description starting on page 6).
+    Purpose:
+      These data are intended for geographic display and analysis at the national 
+      level, and for large regional areas.  The data should be displayed and 
+      analyzed at scales appropriate for 1:2,000,000-scale data.
+    Supplemental_Information: The states included within the dataset include:  AL, AR, FL, GA, KY, LA, MS, NC, OK, SC, TN, TX, and VA
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Range_of_Dates/Times:
+        Beginning_Date: 1995
+        Ending_Date: 1999
+    Currentness_Reference: ground condition
+  Status:
+    Progress: Complete
+    Maintenance_and_Update_Frequency: Unknown
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -110.921273
+      East_Bounding_Coordinate: -74.807184
+      North_Bounding_Coordinate: 40.125056
+      South_Bounding_Coordinate: 23.428833
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: United States, hydrography
+      Theme_Keyword: USDA Forest Service
+    Place:
+      Place_Keyword_Thesaurus: AL, AR, FL, GA, KY, LA, MS, NC, OK, SC, TN, TX, VA
+      Place_Keyword: Southern Forest Resource Assessment, SFRA
+  Access_Constraints: None
+  Use_Constraints: None. The USDA Forest Service does not guarantee the accuracy of this data.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USDA-Forest Service
+        Contact_Person: Mr. John M. Pye
+      Contact_Position: Ecologist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USDA Forest Service, SRS4851
+        Address: 3041 E. Cornwallis Rd
+        City: Research Triangle Park
+        State_or_Province: NC
+        Postal_Code: 27709
+        Country: USA
+      Contact_Voice_Telephone: (919).549.4013
+      Contact_Electronic_Mail_Address: jpye@fs.fed.us
+  Data_Set_Credit:
+    1) USGS- the original hydrogl020 boundary coverage and metadata.
+    2) US Environmental Protection Agency- modifications to data for use in the Southern Forest Resource Assessment (SFRA).
+  Security_Information:
+    Security_Classification: Unclassified
+  Native_Data_Set_Environment: Microsoft Windows 2000 Version 5.0 (Build 2195) Service Pack 2; ESRI ArcCatalog 8.2.0.700
+Data_Quality_Information:
+  Logical_Consistency_Report:
+    The data set was checked for topological consistency using
+    the Arc/INFO command BUILD.  No other checks for logical
+    consistency were performed on this data set.
+
+    Assessment-standard projection: 
+    Projection: Albers Equal Area
+    Units: Meters 
+    Spheroid: GRS80 
+    Datum: NAD83 
+    First Standard Parallel: 27 degrees 30 minutes 
+    Second Standard Parallel: 37 degrees 30 minutes 
+    Central Meridian: -90 degrees 00 minutes
+    Latitude of Origin: 25 degrees 00 minutes 
+    False Easting: 0.0 False Northing: 0.0
+  Completeness_Report:
+    This data set includes hydrography for the Eastern United States.  Data completeness
+    generally reflects the content of the original DLG files.
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report: All linear delineations are within National Map Accuracy Standards.
+      Quantitative_Horizontal_Positional_Accuracy_Assessment:
+        Horizontal_Positional_Accuracy_Value: +/- 1,016 meters
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report: All linear delineations are within National Map Accuracy Standards.
+      Quantitative_Vertical_Positional_Accuracy_Assessment:
+        Vertical_Positional_Accuracy_Value: +/- 500 meters
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 1995
+          Title: 1:2,000,000-scale Digital Line Graphs - Hydrography
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+          Online_Linkage: <http://nsdi.usgs.gov>
+      Source_Scale_Denominator: 2000000
+      Type_of_Source_Media: CD-ROM
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Range_of_Dates/Times:
+            Beginning_Date: 1972
+            Ending_Date: 1994
+        Source_Currentness_Reference: ground condition
+      Source_Citation_Abbreviation: 2MILHY
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 1998
+          Title: Hydrography Features of the United States
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 2000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1998
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: ATLASHY98
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: unknown
+          Title: 1:100,000-scale USGS topographic sheets
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 100000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: 1:100,000-scale base maps
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: 199903
+          Title: Hydrography Features of the United States
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 2000000
+      Type_of_Source_Media: online
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 1999
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: ATLASHY9903
+      Source_Contribution: spatial and attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: unknown
+          Title: 1:250,000-scale USGS topographic sheets for Alaska
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 250000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: 1:250,000-scale sheets
+      Source_Contribution: attribute information
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: U.S. Geological Survey
+          Publication_Date: unknown
+          Title: State base maps
+          Publication_Information:
+            Publication_Place: Reston, Virginia
+            Publisher: U.S. Geological Survey
+      Source_Scale_Denominator: 500000
+      Type_of_Source_Media: paper
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: unknown
+        Source_Currentness_Reference: publication date
+      Source_Citation_Abbreviation: State base maps
+      Source_Contribution: spatial and attribute information
+    Process_Step:
+      Process_Description:
+        USGS Process Description #1: The 2MILHY data files were originally 
+        digitized by the National Mapping Division based on the sectional 
+        maps contained in 'The National Atlas of the United States of
+        America' published by the USGS in 1970.  The 1:2,000,000-scale 
+        Digital Line Graph (DLG) data were merged into a single national 
+        hydrography coverage. Where necessary to effect the merge, 
+        alignment changes were made.  The names were taken from 
+        the USGS1:100,000-scale base maps.  For Alaska, the 
+        names were taken from the 1:250,000-scale sheets.  State
+        lines across water bodies were removed from the national
+        coverage.  State attributes were assigned to the features.
+      Source_Used_Citation_Abbreviation: 2MILHY
+      Source_Used_Citation_Abbreviation: 1:100,000-scale base maps
+      Source_Used_Citation_Abbreviation: 1:250,000-scale sheets
+      Source_Used_Citation_Abbreviation: State base maps
+      Process_Date: 1998
+      Source_Produced_Citation_Abbreviation: ATLASHY98
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+          Contact_Address:
+    Process_Step:
+      Process_Description:
+        USGS Process Description #2: Some spatial features were 
+        added and corrected.  Some name attributes were added or 
+        corrected.  All occurrences of St. were changed to Saint.  
+        Extra spaces were removed from the attributes.  
+        Hydrographic features for Puerto Rico and the U.S. Virgin
+        Islands were added.
+      Source_Used_Citation_Abbreviation: 1:100,000-scale base maps
+      Source_Used_Citation_Abbreviation: State base maps
+      Source_Used_Citation_Abbreviation: ATLASHY98
+      Process_Date: 1999
+      Source_Produced_Citation_Abbreviation: ATLASHY9903
+    Process_Step:
+      Process_Description:
+        USGS Process Description #3: A minor adjustment was
+        made to the shoreline in Galveston Bay, Texas.
+      Source_Used_Citation_Abbreviation: ATLASHY9903
+      Source_Used_Citation_Abbreviation: 1:100,000 scale base maps
+      Process_Date: 1999
+    Process_Step:
+      Process_Description:
+        Data Modifications by US Environmental Protection Agency Personnel: 
+
+        Sept. & Oct.-2000: The coverages were downloaded by US Environmental Agency personnel on 22-Sep-2000 in compressed Arc Info Export format along with their associated metadata. The coverages were then reprojected and clipped to match Assessment standard Albers projection and State Assessment coverage boundary coordinates. This process used the Arc Info PROJECT and CLIP command. The coverage then exported as a shapefile.
+      Process_Date: 2000
+      Process_Contact:
+        Contact_Information:
+          Contact_Organization_Primary:
+            Contact_Organization: US Environmental Protection Agency
+            Contact_Person: Mr. Serdar Ertep
+          Contact_Address:
+            Address_Type: mailing and physical address
+            Address: US Environmental Protection Agency
+            Address: Region 4
+            Address: Atlanta Federal Center
+            Address: 61 Forsyth Street, S.W.
+            City: Atlanta
+            State_or_Province: GA
+            Postal_Code: 30303
+            Country: USA
+          Contact_Voice_Telephone: (404).562.9683
+    Process_Step:
+      Process_Description: Metadata imported.
+      Source_Used_Citation_Abbreviation: C:\DOCUME~1\bcermak\LOCALS~1\Temp\xml93.tmp
+      Process_Contact:
+        Contact_Information:
+          Contact_Address:
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference:
+    U.S. Department of Commerce, 1995, Countries, Dependencies,
+    Areas of Special Sovereignty, and Their Principal
+    Administrative Divisions.  (FIPS 10-4): Washington, D.C.,
+    National Institute of Standards and Technology.
+
+    U.S. Department of Commerce, 1987, Codes for the
+    Identification of the States, the District of Columbia and
+    The Outlying Areas of the United States, and Associated Areas
+    (FIPS 5-2): Washington, D.C., National Institute of
+    Standards and Technology.
+
+    U.S. Department of Commerce, 1990, Counties and Equivalent
+    Entities of the United States, Its Possessions, and
+    Associated Areas (FIPS 6-4): Washington, D.C., National
+    Institute of Standards and Technology.
+  Direct_Spatial_Reference_Method: Vector
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: String
+      Point_and_Vector_Object_Count: 16156
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Complete chain
+      Point_and_Vector_Object_Count: 76919
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Map_Projection:
+        Map_Projection_Name: Albers Conical Equal Area
+        Albers_Conical_Equal_Area:
+          Standard_Parallel: 27.500000
+          Standard_Parallel: 37.500000
+          Longitude_of_Central_Meridian: -90.000000
+          Latitude_of_Projection_Origin: 25.000000
+          False_Easting: 0.000000
+          False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: coordinate pair
+        Coordinate_Representation:
+          Abscissa_Resolution: 0.008192
+          Ordinate_Resolution: 0.008192
+        Planar_Distance_Units: meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: Geodetic Reference System 80
+      Semi-major_Axis: 6378137.000000
+      Denominator_of_Flattening_Ratio: 298.257222
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: Linear Hydrography (described by Hydrogl020.dbf)
+      Entity_Type_Definition: Linear water features in the United States.
+      Entity_Type_Definition_Source: U.S. Geological Survey
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number.
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 16155
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated.
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: The representation of the entity in the data.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Polyline
+          Enumerated_Domain_Value_Definition: 1-dimensional element that may or may not surround a 2-dimensional element.
+          Enumerated_Domain_Value_Definition_Source: ESRI GIS software
+        Unrepresentable_Domain: Coordinates defining the features.
+    Attribute:
+      Attribute_Label: Fnode_
+      Attribute_Definition: Internal number of the from-node
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 44393
+          Range_Domain_Maximum: 65162
+    Attribute:
+      Attribute_Label: Tnode_
+      Attribute_Definition: Internal number of the to-node
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 43990
+          Range_Domain_Maximum: 65162
+    Attribute:
+      Attribute_Label: Lpoly_
+      Attribute_Definition: Internal number of the polygon to the left of the arc.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 21752
+    Attribute:
+      Attribute_Label: Rpoly_
+      Attribute_Definition: Internal number of the polygon to the right of the arc.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 21742
+    Attribute:
+      Attribute_Label: Length
+      Attribute_Definition: The length of the arc in shapefile units.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 20.263
+          Range_Domain_Maximum: 37983.092
+    Attribute:
+      Attribute_Label: Hydrogm020
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 50967
+          Range_Domain_Maximum: 76745
+    Attribute:
+      Attribute_Label: Hydrogm020
+      Attribute_Definition: User-assigned feature number
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 50967
+          Range_Domain_Maximum: 76745
+    Attribute:
+      Attribute_Label: Feature
+      Attribute_Definition: Type of linear water feature.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Apparent Limit
+          Enumerated_Domain_Value_Definition:
+            A naturally occurring line of contact between a body
+            of water and the land.  Conditions prevent the
+            feature from being confidently positioned.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Aqueduct
+          Enumerated_Domain_Value_Definition: A structure designed to transport domestic or industrial water from a supply source to a distribution point, often by gravity.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Braided Stream
+          Enumerated_Domain_Value_Definition: A stream or river that flows in an intricate network of interlacing channels.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Canal
+          Enumerated_Domain_Value_Definition: An artificial open waterway constructed to transport water, to irrigate or drain land, to connect two or more bodies of water, or to serve as a waterway for water craft.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Canal Intermittent
+          Enumerated_Domain_Value_Definition: An artificial open waterway, that contains water only part of the year, constructed to transport water, to irrigate or drain land, to connect two or more bodies of water, or to serve as a waterway for water craft.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Closure Line
+          Enumerated_Domain_Value_Definition: A line separating two different water features.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Dam
+          Enumerated_Domain_Value_Definition: A barrier constructed to control the flow or raise the level of water.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Falls
+          Enumerated_Domain_Value_Definition: A vertical or near vertical descent of water over a step or ledge in the bed of the river.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Intercoastal waterway
+          Enumerated_Domain_Value_Definition: A system of rivers, canals, and designated channels along the northern border and the Atlantic and Gulf Coasts of the United States.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Left Bank
+          Enumerated_Domain_Value_Definition: A naturally occurring line of contact between a body of water and the land. This is the left side facing downstream.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Null
+          Enumerated_Domain_Value_Definition: Not a water feature.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Right Bank
+          Enumerated_Domain_Value_Definition: A naturally occurring line of contact between a body of water and the land. This is the right side facing downstream.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shoreline
+          Enumerated_Domain_Value_Definition: A naturally occurring line of contact between a body of water and the land.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Shoreline Intermittent
+          Enumerated_Domain_Value_Definition: A naturally occurring line of contact between a body of water and the land.  The water body exists for only part of the year.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stream
+          Enumerated_Domain_Value_Definition: A body of flowing water.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Stream Intermittent
+          Enumerated_Domain_Value_Definition: A body of flowing water that contains water for only part of the year.
+          Enumerated_Domain_Value_Definition_Source: U.S. Geological Survey
+    Attribute:
+      Attribute_Label: Name
+      Attribute_Definition: Name of the hydrographic feature
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Unrepresentable_Domain:
+          There is no predefined set of valid hydrography feature
+          names.
+    Attribute:
+      Attribute_Label: State
+      Attribute_Definition: The 2-letter Federal Information Processing Standard (FIPS) code for the State or State equivalent in which the water feature is located.  If the water feature falls in two States, both codes are listed, separated by a dash.
+      Attribute_Definition_Source: U.S. Geological Survey
+      Attribute_Domain_Values:
+        Codeset_Domain:
+          Codeset_Name:
+            Codes for the Identification of the States, the
+            District of Columbia and the Outlying Areas of the
+            United States, and Associated Areas, FIPS 5-2.
+          Codeset_Source: U.S. Department of Commerce
+    Attribute:
+      Attribute_Label: STATE_FIPS
+      Attribute_Definition: The 2-digit Federal Information Processing Standard (FIPS) code used by the U.S. Bureau of the Census for the State in which the water feature is located.  If the water feature falls in two States, both codes are listed,separated by a dash.
+      Attribute_Definition_Source: US Army Corp of Engineers
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 54
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USDA-Forest Service
+        Contact_Person: Mr. John M. Pye
+      Contact_Position: Ecologist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USDA Forest Service, SRS4851
+        Address: 3041 E. Cornwallis Rd.
+        City: Research Triangle Park
+        State_or_Province: NC
+        Postal_Code: 27709
+        Country: USA
+      Contact_Voice_Telephone: (919).549.4013
+      Contact_Electronic_Mail_Address: jpye@fs.fed.us
+  Resource_Description: Downloadable Data
+  Distribution_Liability:
+    Data Content and Use Disclaimer 
+
+    The USDA Forest Service, Southern Forest Resource Assessment or SFRA, provides data to users of digital geographic data. The USDA Forest Service is in no way condoning or endorsing the application of these data for any given purpose. It is the sole responsibility of the user to determine whether or not the data is suitable for the intended purpose. It is also the obligation of the user to apply the data in an appropriate and conscientious manner. The USDA Forest Service provides no warranty, nor accepts any liability occurring from any incomplete, incorrect, or misleading data, or from any incorrect, incomplete, or misleading use of the data. Much of the USDA Forest Service data is based on and maintained with Arc Info and Arc View Software developed by the Environmental Systems Research Institute (ESRI). In addition, much of the information presented uses conventions and terms popularized by Arc Info and Arc View and their user community. USDA Forest Service in no way represents the interests of ESRI nor acts as an agent for them.
+  Standard_Order_Process:
+    Digital_Form:
+      Digital_Transfer_Information:
+        Format_Name: .shp
+        Format_Specification: Arc View Shapefile
+        Format_Information_Content: hydrography
+        File_Decompression_Technique: zip file
+        Transfer_Size: 13.210
+Metadata_Reference_Information:
+  Metadata_Date: 20030519
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: USDA-Forest Service
+        Contact_Person: Mr. John M. Pye
+      Contact_Position: Ecologist
+      Contact_Address:
+        Address_Type: mailing and physical address
+        Address: USDA Forest Service, SRS4851
+        Address: 3041 E. Cornwallis Rd.
+        City: Research Triangle Park
+        State_or_Province: NC
+        Postal_Code: 27709
+        Country: USA
+      Contact_Voice_Telephone: (919).549.4013
+      Contact_Electronic_Mail_Address: jpye@fs.fed.us
+  Metadata_Standard_Name: FGDC Content Standards for Digital Geospatial Metadata
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Time_Convention: local time
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints: None
+  Metadata_Security_Information:
+    Metadata_Security_Classification_System: None
+    Metadata_Security_Classification: Unclassified
+    Metadata_Security_Handling_Description: None
+  Metadata_Extensions:
+    Online_Linkage: http://www.srs.fs.usda.gov/econ
+  Metadata_Extensions:
+    Online_Linkage: http://www.esri.com/metadata/esriprof80.html
+    Profile_Name: ESRI Metadata Profile

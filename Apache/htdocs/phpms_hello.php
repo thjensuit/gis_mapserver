@@ -6,7 +6,7 @@
 
   // Create a new instance of a map object
      
-  $map = ms_newMapObj("/ms4w/apps/demo/hello.map");
+  $map = ms_newMapObj("D:/ms4w/apps/demo/hello.map");
 
   // Create an image of the map and save it to disk
      
